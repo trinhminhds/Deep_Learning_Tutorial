@@ -1,5 +1,0 @@
-streamlit
-PIL
-matplotlib
-numpy
-tensorflow==2.13.0

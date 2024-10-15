@@ -11,7 +11,7 @@ UPLOAT_FOLDER = "uploads"
 if not os.path.exists(UPLOAT_FOLDER):
     os.makedirs(UPLOAT_FOLDER)
 
-model = load_model('model.h5')
+model = load_model(r'C:\\Users\\Admin\\Deep_Learning_Tutorial\\CNN_Classification\\CNN_CatandDog\\cats_vs_dogs_ResNet50.h5')
 
 model.make_predict_function()
 
